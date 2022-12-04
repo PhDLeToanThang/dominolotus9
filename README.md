@@ -10,18 +10,18 @@
      https://atcom.vn/hol-isim/dominolotus9/
 ---
 ###  3. OVA package for Deploy Sample QuickDemo or Pilot: 
-- 	  on ESXi 6.5 or later or 
-- 	  on VMware Player or 
-- 	  on Workstation Pro 15 or later  
+- on ESXi 6.5 or later or 
+- on VMware Player or 
+- on Workstation Pro 15 or later  
 --- 
 ###  4. VM OS: Windows Server 2012 R2 Datacenter License
--  		User Admin OS: Administrator
--  		Password: VMware1!
--    IPv4 LAN: 192.168.100.85
+- User Admin OS: Administrator
+- Password: VMware1!
+- IPv4 LAN: 192.168.100.85
 ---
 ###  Hosts fake Alias if you dont have DNS server / DNS Internal:
--    C:\windows\system32\drivers\etc\hosts
--    127.0.0.1  dominolotus.cloud.edu.vn
+- C:\windows\system32\drivers\etc\hosts
+- 127.0.0.1  dominolotus.cloud.edu.vn
 --- 
 ###  5. Firewall Windows Server Open Inboud Rule: TCP IP Port 2050,80,443,1352, 25, 110...
 ---
