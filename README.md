@@ -6,7 +6,8 @@
 ---
 ###  1. How to Setup Domino Server v9 reference Blog share guide link: 
      https://thangletoan.wordpress.com/2016/04/11/ibm-domino-lotus-v-lotus-notes-client-chay-trn-nen-private-cloud-nhu-the-no/### comment-5142
-###  2. Video/Audio interactive Simulator: https://atcom.vn/hol-isim/dominolotus9/
+###  2. Video/Audio interactive Simulator: 
+     https://atcom.vn/hol-isim/dominolotus9/
 ---
 ###  3. OVA package for Deploy Sample QuickDemo or Pilot: 
 ### 	3.1. on ESXi 6.5 or later or 
@@ -51,8 +52,10 @@ Domino Server Issues Troubleshooting, Server Console
 -  b. If the entry doesn't exist, add it like below: TCPIP_ControllerTcpIpAddress=
 -  3. Save the file.
    D. Verify the Windows Firewall has port 2050 open.
-###  Note: It's a good time to also verify that ports 1352, 80, and 443 are open, since you probably are doing both Notes and ###  web apps.
-   Control Panel --> Security (This option varies) --> Windows Firewall --> Advanced Settings --> Incoming Ports.
+   
+###  Note: 
+    It's a good time to also verify that ports 1352, 80, and 443 are open, since you probably are doing both Notes and ###  web apps.
+    Control Panel --> Security (This option varies) --> Windows Firewall --> Advanced Settings --> Incoming Ports.
 ---
 ###  6. Domino Lotus 9 installed
 -  Domino domain name: archibuslab
@@ -62,4 +65,6 @@ Domino Server Issues Troubleshooting, Server Console
 -  Server Name: iscsi70/it/archibuslab/VN
 -  User Admin Name Domino: Thang Toan Le/it/archibuslab/VN
 -  Password Admin Domino: VMware1!
-   Folder store full ID file for Server, Cert, Admin, Organization ID: C:\Program Files\IBM\Domino\data vs c:\Setup\LotusDomino9\Sample_ID_DominoServer9
+   Folder store full ID file for Server, Cert, Admin, Organization ID: 
+   + C:\Program Files\IBM\Domino\data vs 
+   + c:\Setup\LotusDomino9\Sample_ID_DominoServer9
