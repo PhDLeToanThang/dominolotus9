@@ -10,23 +10,22 @@
      https://atcom.vn/hol-isim/dominolotus9/
 ---
 ###  3. OVA package for Deploy Sample QuickDemo or Pilot: 
-### 	3.1. on ESXi 6.5 or later or 
-### 	3.2. on VMware Player or 
-### 	3.3. on Workstation Pro 15 or later  
+- 	  on ESXi 6.5 or later or 
+- 	  on VMware Player or 
+- 	  on Workstation Pro 15 or later  
 --- 
 ###  4. VM OS: Windows Server 2012 R2 Datacenter License
-###  		User Admin OS: Administrator
-###  		Password: VMware1!
-###  IPv4 LAN: 192.168.100.85
+-  		User Admin OS: Administrator
+-  		Password: VMware1!
+-    IPv4 LAN: 192.168.100.85
 ---
 ###  Hosts fake Alias if you dont have DNS server / DNS Internal:
-###  C:\windows\system32\drivers\etc\hosts
-###  127.0.0.1  dominolotus.cloud.edu.vn
+-    C:\windows\system32\drivers\etc\hosts
+-    127.0.0.1  dominolotus.cloud.edu.vn
 --- 
 ###  5. Firewall Windows Server Open Inboud Rule: TCP IP Port 2050,80,443,1352, 25, 110...
-###  FAQ: Domino 9.0 / Domino 9.0.1 Install on Windows 2012 Service Won't Start
-Domino Server Issues Troubleshooting, Server Console 
-
+---
+###  FAQ: Domino 9.0 / Domino 9.0.1 Install on Windows 2012 Service Won't Start Domino Server Issues Troubleshooting, Server Console ?
 ### Issue:
   After installing the 64-bit Domino server on Windows 64-bit 2012, you run into a problem starting IBM Domino. You can 
   start Domino from the command line, as an application, but starting as a Service doesn't work. You get a message that Domino started and stopped.
