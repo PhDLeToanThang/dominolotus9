@@ -88,3 +88,8 @@ This white paper describes the process necessary to get started with NotesSQL. S
 After you've created a data source for the remote server successfully , you can shutdown the local domino server.
 NOTE: You can use the ODBCTest 64-bit tool to test the connection. 
 See link: https://www.progress.com/support/evaluation/download-resources/download-tools
+
+Reference using NotesSQL ODBC Driver for MS-SQL, SharePoint:
+https://success.outsystems.com/Documentation/How-to_Guides/Integrations/How_to_access_legacy_data_from_Lotus_Notes_/_Domino_applications
+and
+https://www.layer2solutions.com/support/cloud-connector-faqs/ibm-lotus-notes-domino-sharepoint-integration
