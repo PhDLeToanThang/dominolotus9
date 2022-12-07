@@ -67,3 +67,20 @@
    Folder store full ID file for Server, Cert, Admin, Organization ID: 
    + C:\Program Files\IBM\Domino\data vs 
    + c:\Setup\LotusDomino9\Sample_ID_DominoServer9
+---
+###  7. NotesSQL:
+- Enterprise Integrator for Domino, Domino, Notes
+This white paper describes the process necessary to get started with NotesSQL. Specifically, this document covers the following points: what software is necessary to use NotesSQL, choosing your version of NotesSQL, OS Support Matrix, bitness, what software should be installed locally for NotesSQL to use, troubleshooting, and additional NotesSQL resources.
+- Reference: https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0036153
+- Using 64-bit NotesSQL to connect to a Remote Domino Server:
+( Applies to: HCL Domino Server 9.0.X, 10.0.X, 11.0.X, 12.0)
+
+###  8. Steps to create a data source entry:
+1. Open the ODBC Datasource Manager 64-bit
+2. Create a datasource using the NotesSQL driver
+3. Put the datasource name and description
+4. Type the name of the remote server in the 'Domino Server' field
+5. The list of the databases should show up in the 'Database' field
+After you've created a data source for the remote server successfully , you can shutdown the local domino server.
+NOTE: You can use the ODBCTest 64-bit tool to test the connection. 
+See link: https://www.progress.com/support/evaluation/download-resources/download-tools
